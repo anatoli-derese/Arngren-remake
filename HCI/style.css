@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&family=Sixtyfour&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header { 
+    color: #fff;
+    padding: 10px 20px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#titleConatainer {
+    display: flex;
+    align-items: center;
+    color: #11AB55;
+}
+
+#DomainName {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: linear-gradient(green, red);
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+
+/* Style the cart container */
+#cartContainer {
+    color: #F6AF03;
+    display: flex;
+    align-items: center;
+    column-gap: 6px;
+    font-size: large;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+    font-size: 2em;
+    color: #11AB55;
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#motoContainer {
+    width: 90%;
+}
+
+span{
+    font-family:'Times New Roman', Times, serif;
+}
+
+#moto{
+    line-height: 1.6;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: #11AB55;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: Orelega One;
+    margin: 0;
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    padding-top: 90px;
+}
+
+#cartContainer {
+    padding: 4px;
+    background-color: #fff;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 128, 0, 0.2);
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+#cartContainer p {
+    margin: 0; 
+    display: inline; 
+}
+
+#cartContainer img {
+    margin-left: 5px;
+}
+
+#searchContainer {
+    height: 40px;
+    width: 90%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#together {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+    width: fit-content;
+    border-radius: 16px 16px 16px 16px;
+    box-shadow: 5px 3px 5px rgba(45, 40, 40, 0.7);
+}
+
+#together input {
+    border: 1px solid #00b300;
+    border: none;
+    border-radius: 16px 0 0 16px; 
+    padding: 8px;
+}
+
+#together button {
+    background-color: #00b300;
+    color: #fff; 
+    border: none;
+    border-radius: 16px;
+    padding: 8px 12px; 
+    cursor: pointer; 
+}
+
+#together button:hover {
+    background-color: #008000; 
+    border: none;
+}
+
+#together input:focus {
+    outline: none;
+}
+
+
+
+
